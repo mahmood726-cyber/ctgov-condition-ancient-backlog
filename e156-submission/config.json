@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Condition Ancient Backlog",
+  "slug": "ctgov-condition-ancient-backlog",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-condition-ancient-backlog",
+  "type": "methods",
+  "primary_estimand": "Ancient-backlog stock among older closed interventional studies unresolved at least ten overdue years beyond the two-year mark",
+  "summary": "A standalone E156 project on which therapeutic portfolios still hold the deepest stock of unresolved CT.gov studies more than a decade beyond the reporting window.",
+  "body": "Which condition families still hold the largest stock of CT.gov studies unresolved at least ten overdue years beyond the two-year reporting mark? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot using one condition-family label per study. We defined ancient backlog as older studies with no posted results and at least ten overdue years beyond the two-year mark, then ranked large condition families. Oncology led the named-family table at 11,369 studies, while the broad OTHER bucket held 10,899 and cardiovascular followed at 6,545. Metabolic remained high on stock at 4,693, while healthy volunteers reached the highest large-family ancient-backlog rate at 31.5 percent. Ancient backlog separates diffuse registry stock from large disease portfolios and shows that very old silence remains prominent in major therapeutic areas. Condition families are keyword-derived registry groupings, so they approximate therapeutic portfolios rather than fixed clinical ontologies or mutually exclusive diagnoses within the registry as presented here.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which condition families still hold the largest stock of CT.gov studies unresolved at least ten overdue years beyond the two-year reporting mark?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot using one condition-family label per study."
+    },
+    {
+      "role": "Method",
+      "text": "We defined ancient backlog as older studies with no posted results and at least ten overdue years beyond the two-year mark, then ranked large condition families."
+    },
+    {
+      "role": "Primary result",
+      "text": "Oncology led the named-family table at 11,369 studies, while the broad OTHER bucket held 10,899 and cardiovascular followed at 6,545."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Metabolic remained high on stock at 4,693, while healthy volunteers reached the highest large-family ancient-backlog rate at 31.5 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Ancient backlog separates diffuse registry stock from large disease portfolios and shows that very old silence remains prominent in major therapeutic areas."
+    },
+    {
+      "role": "Boundary",
+      "text": "Condition families are keyword-derived registry groupings, so they approximate therapeutic portfolios rather than fixed clinical ontologies or mutually exclusive diagnoses within the registry as presented here."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Condition Ancient Backlog dashboard",
+    "data": "249,507 eligible older closed interventional studies with ancient-backlog stock, rate, and overdue-years summaries",
+    "code": "https://github.com/mahmood726-cyber/ctgov-condition-ancient-backlog",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
+  ]
+}
